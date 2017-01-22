@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-config-lowmess",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowmess/stylelint-config-lowmess.git"
+  },
+  "keywords": [
+    "stylelint-config"
+  ],
+  "author": "Alec Lomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lowmess/stylelint-config-lowmess/issues"
+  },
+  "homepage": "https://github.com/lowmess/stylelint-config-lowmess#readme",
+  "peerDependencies": {
+    "stylelint": "^7.6.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
