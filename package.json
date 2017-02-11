@@ -25,5 +25,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "stylelint-order": "^0.2.2"
   }
 }
