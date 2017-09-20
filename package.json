@@ -15,11 +15,17 @@
     "url": "https://github.com/lowmess/stylelint-config-lowmess/issues"
   },
   "homepage": "https://github.com/lowmess/stylelint-config-lowmess#readme",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
   "peerDependencies": {
     "stylelint": "^7.6.0"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^1.2.0"
+    "cz-conventional-changelog": "^1.2.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.1",
+    "prettier": "^1.7.0"
   },
   "config": {
     "commitizen": {
@@ -28,5 +34,11 @@
   },
   "dependencies": {
     "stylelint-order": "^0.2.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --trailing-comma=es5 --semi=false --print-width=120 --write",
+      "git add"
+    ]
   }
 }
