@@ -19,7 +19,7 @@
     "precommit": "lint-staged"
   },
   "peerDependencies": {
-    "stylelint": "^7.6.0"
+    "stylelint": "8.1.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.2.0",

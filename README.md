@@ -1,6 +1,6 @@
 # stylelint-config-lowmess
 
-This [stylelint](https://stylelint.io) config contains rules specific to how I write my CSS.
+This [stylelint](https://stylelint.io) config contains rules specific to how I write my CSS. It is intended to be used with [Prettier](https://github.com/prettier/prettier).
 
 To see the rules that this config uses, please read [the config itself](/index.js).
 
